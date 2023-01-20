@@ -1,0 +1,272 @@
+body
+{
+    background-color: #3D087B;
+}
+#first_image
+{
+    margin-left: 125px;
+    margin-top: 50px;
+    position: fixed;
+}
+#firstparent
+{
+    height: 350px;
+    width: 500px;
+    margin-top: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 135px;
+    position: fixed;
+    margin-top: 160px;
+    color:#3D087B ;
+    background-color:azure;
+}
+#a
+{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.first_child
+{
+    display: inline-block;
+    
+}
+#firstdropdown
+{
+    display: inline-block;
+    margin-left: 50px;
+    color: #3D087B  ;
+    width: 200px;
+    position: fixed;
+    text-align: start;
+    margin-top: 45px;
+    /* transition: all 1s ease-in; */
+}
+/* #firsdropdown:hover
+{ //there is a doubt here
+    color: rgb(83, 83, 252);
+    background-color: blue;
+} */
+#seconddropdown
+{
+    display: inline-block;
+    margin-left: 265px;
+    color: #3D087B  ;
+    width: 200px;
+    position: fixed;
+    text-align: start;
+    margin-top: -35px;
+}
+#b
+{
+    margin-top: 45px;
+    margin-left: 75px;
+}
+#thirddropdown
+{
+    display: inline-block;
+    margin-left: 265px;
+    color: #3D087B  ;
+    width: 200px;
+    position: fixed;
+    text-align: start;
+    margin-top: -35px;
+}
+#c
+{
+    margin-left: 75px;
+    margin-top: 65px;
+}
+#fourthdropdown
+{
+    display: inline-block;
+    margin-left: 265px;
+    color: #3D087B  ;
+    width: 200px;
+    position: fixed;
+    text-align: start;
+    margin-top: -35px;
+}
+#d
+{
+    margin-left: 75px;
+    margin-top: 65px;
+}
+.butt
+{
+    margin-top: 610px;
+    position: fixed;
+    width: 250px;
+    margin-left: 150px;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(76, 76, 237),rgb(166, 62, 241),rgb(253, 79, 215));
+    border: none;
+}
+.butt::before
+{
+    content:"Set Alarm";
+}
+
+.butt:hover::before
+{
+    content:"Party time !";
+}
+.butt:hover
+{
+    background-image: linear-gradient(to left, rgb(76, 76, 237),rgb(230, 88, 255)); 
+}
+#basetable
+{
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    background-color: white;
+    margin-top: 600px;
+    margin-left: 500px;
+    background-color: #9f3be77e;
+    color: #F25CFE;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#basetable > span
+{
+    font-size: 15px;
+    margin-left: 10px;
+}
+#grab
+{
+    height: 120px;
+    width: 550px;
+    background-color: white;
+    margin-left: 750px;
+    margin-top: 210px;
+    color: #8E53F0;
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+#poster
+{
+    margin-left: 750px;
+    width: 550px;
+    position: fixed;
+    margin-top: 350px;
+}
+#timebox
+{
+   height: 130px;
+   width: 500px;
+   background-color: white; 
+   margin-left: 772.5px;
+   margin-top: 25px;
+   border-radius: 15px;
+   position: fixed;
+}
+#bc
+{
+    width: 365px;
+    height: 75px;
+    background-color: rgba(245, 234, 234, 0.516);
+    border-radius: 15px;
+    margin-left: 835px;
+    margin-top: 93px;
+    position: fixed;
+    z-index: -1;
+}
+#cb
+{
+    width: 265px;
+    height: 75px;
+    background-color: rgba(245, 234, 234, 0.216);
+    border-radius: 15px;
+    margin-left: 885px;
+    margin-top: 105px;
+    position: fixed;
+    z-index: -2;
+}
+#leftbox
+{
+    width: 500px;
+    height: 75px;
+    background-color: rgba(245, 234, 234, 0.516);
+    border-radius: 15px;
+    margin-left: 135px;
+    margin-top: 520px;
+    position: fixed;
+}
+#leftbox > h3
+{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#an
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(230, 88, 255);
+    position: fixed;
+    margin-left: 1150px;
+    margin-top: 55px;
+    border-color: rgb(230, 88, 255);
+}
+#hours
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(230, 88, 255, 0.527);
+    position: fixed;
+    margin-left: 900px;
+    margin-top: 55px;
+    border-color: rgb(230, 88, 255);
+}
+#mins
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(230, 88, 255, 0.527);
+    position: fixed;
+    margin-left: 980px;
+    margin-top: 55px;
+    border-color: rgb(230, 88, 255);
+
+}
+#secs
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgba(230, 88, 255, 0.527);
+    position: fixed;
+    margin-left: 1060px;
+    margin-top: 55px;
+    border-color: rgb(230, 88, 255);
+}
+#abcd
+{
+    position: fixed;
+    margin-left: -195px;
+    margin-top: 33px;
+}
+#efgh
+{
+    position: fixed;
+    margin-left: -195px;
+    margin-top: 120px;
+}
+#ijkl
+{
+    position: fixed;
+    margin-left: -195px;
+    margin-top: 210px;
+}
+#colo
+{
+    display:inline-block;
+    position: fixed;
+}

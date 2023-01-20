@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock XD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="basetable">
+        <span id="wake"></span><br>
+        <span id="lunc">Lunch Time : 12PM - 1PM</span>
+        <span id="nap">Nap Time : 4PM - 5PM</span><br>
+        <span id="nig">Night Time : 8PM - 9AM</span>
+    </div>
+ <img src="./clock_logo.png" alt="" id="first_image"> 
+<div id="firstparent">
+    <div class="first_child">
+        <h3 id="a">Set Wake up time</h3>
+        <img src="./wake_up.png" alt="" id="abcd">
+        <img src="./lunch_time.png" alt="" id="efgh">
+        <img src="./nap_time.png" alt="" id="ijkl">
+            <select name="time" id="firstdropdown">
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                <option value="8 AM - 9 AM">8 AM - 9 AM</option>
+                <option value="9 AM - 10 AM">9 AM - 10 AM</option>
+                <option value="10 AM - 11 AM">10 AM - 11 AM</option>
+                <option value="11 AM - 12 AM">11 AM - 12 AM</option>
+            </select>
+    </div>
+    <div id="second_child">
+        <h3 id="b">Set lunch time</h3>
+        <select name="lunchtime" id="seconddropdown">
+            <option value="">12 PM - 1 PM</option>
+        </select>
+    </div>
+    <div id="third_child">
+        <h3 id="c">Set Nap time</h3>
+        <select name="lunchtime" id="thirddropdown">
+            <option value="">4 PM - 5 PM</option>
+        </select>
+    </div>
+    <div id="fourth_child">
+        <h3 id="d">Set Night time</h3>
+        <select name="lunchtime" id="fourthdropdown">
+            <option value="">4 PM - 5 PM</option>
+        </select>
+    </div>
+ </div>
+ <button class="butt" id="hello" onclick="executE()"></button>
+
+<div id="grab">
+    <span style="margin-left: 55px;
+    margin-top: 50px;font-size: 30px;position: fixed;" id="writing">
+    GRAB SOME HEALTHY BREAKFAST!!!</span>
+</div>
+    <img src="./Component 30 – 1.png" alt="" id="poster">
+    <div id="timebox">
+        <h2 style="color: #8E53F0; font-size: 20px; margin-top: 55px; margin-left: 55px;">TIME</h2>
+    </div>
+    <div id="bc"></div>
+    <div id="cb"></div>
+    <span id="leftbox"><h3 style="color: white; text-align: center; font-size: 28px;font-family:Georgia, 'Times New Roman', Times, serif ;">GOOD MORNING!! WAKE UP !!</h3></span>
+    <div id="an">
+        <span id="am" style="color: white; font-size: 40px; display: inline-block;margin-left: 7px; margin-top: 18px;font-family:'Trebuchet MS', 'Lucida Sans UniScode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-top: 10px;">
+        </span>
+    </div>
+    <div id="hours">
+<span id="hrss" style="font-size: 55px; color: #8A11BF;margin-left: 15px;"></span>
+    </div>
+    <div id="mins">
+        <span id="minss" style="font-size: 55px; margin-left:6px; color: #8A11BF;">
+        </span>
+    </div>
+    <div id="secs">
+        <span  id="secss" style="font-size: 55px; margin-left: 8px; color: #8A11BF;"></span>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
